@@ -2,9 +2,12 @@
     margin:0;
 }
 
+h1{
+    font-size:3vw
+}
 body{
     font-family: 'Amarante', sans-serif;
-    background: rgb(110, 110, 110)
+    background: rgb(112, 107, 107)
 }
 nav{
     background: radial-gradient(circle, rgba(255,139,0,1) 0%, rgba(255,220,0,1) 100%);
@@ -12,10 +15,44 @@ nav{
     height:64px;
 }
 
+img{
+    width:100%;
+}
 .container-fluid{
     justify-content: space-between;
     border: 5px solid #020201;
     display:flex;
     height: 55px;
     align-items: center;
+}
+
+.vote-sign{
+    font-size:1.5vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    height: 30px;
+    border-radius:20px;
+}
+
+.content-box1{
+    display:flex;
+    justify-content: space-between;
+    margin: auto;
+    width: 90%;
+    height: 40%;
+    background-color: #ff9500;
+    margin-top:2%;
+    border-radius: 20px;
+}
+h2{
+    font-size:2vw;
+    color: #ff9500;
+    margin-left:10%;
+    margin-right:10%
+}
+.contentImg1{
+    max-width: 50px;
+    max-height: 50px;
 }
