@@ -3,7 +3,7 @@
 }
 
 h1{
-    font-size:3vw
+    font-size:5vw
 }
 body{
     font-family: 'Amarante', sans-serif;
@@ -27,7 +27,7 @@ img{
 }
 
 .vote-sign{
-    font-size:1.5vw;
+    font-size:3vw;
     display: flex;
     justify-content: center;
     align-items: center;
